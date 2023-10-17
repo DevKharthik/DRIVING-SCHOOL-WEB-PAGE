@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     /* background-color: linear-gradient(rgb(255,0,0),rgb(255,100,0),rgb(255,150,0),rgb(255,200,0)); */
     background: linear-gradient(#3b0f0f, #283cc2,#bb4949,#A234D3,#555121);
+    /* width: 80%; */
 }
 
 header {
@@ -110,4 +111,9 @@ img{
 }
 .total{
     padding: 3%;
+}
+@media screen and (min-width: 600px){
+    .body{
+        width:80%;
+    }
 }
